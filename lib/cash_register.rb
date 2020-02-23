@@ -19,8 +19,7 @@ class CashRegister
   end 
   
   def apply_discount
-    employee_discount = price * .20
-    @discount -= employee_discount
+   
     
   end 
   
