@@ -1,3 +1,4 @@
+require 'pry'
 class CashRegister 
   
   attr_accessor :discount, :total, :price, :items
@@ -39,10 +40,7 @@ class CashRegister
   
   def void_last_transaction
     @total -= @price
-    if @items = [] 
-      @total.clear
-    end
-      
+   binding.pry
   end 
   
 end 
