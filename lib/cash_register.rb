@@ -41,6 +41,7 @@ class CashRegister
     @total -= @price
     if @items = [] 
       @total.clear
+    end
       
   end 
   
