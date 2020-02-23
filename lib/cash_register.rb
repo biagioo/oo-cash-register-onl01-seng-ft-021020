@@ -43,7 +43,6 @@ class CashRegister
     if @items = [] 
       @total - @total
     end
-    @total
   end
   
 end 
