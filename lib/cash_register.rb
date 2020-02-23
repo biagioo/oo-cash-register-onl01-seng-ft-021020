@@ -42,7 +42,7 @@ class CashRegister
     @total -= @price
     if @items = [] 
       @total - @total
-      binding.pry
+      #binding.pry
     end
   end
   
